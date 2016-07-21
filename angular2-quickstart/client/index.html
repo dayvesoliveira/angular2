@@ -70,9 +70,16 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="form-group">
-                                        <label for="exampleInputFile">File input</label>
-                                        <input type="file" id="exampleInputFile">
-                                        <p class="help-block">Example help text here.</p>
+                                        <label for="input2">Selecione:</label>
+                                        <div class="input-group">
+                                            <input id="input2" type="date" class="form-control" aria-label="...">
+                                            <div class="input-group-btn">
+                                                <!-- Buttons -->
+                                                <button type="button" class="btn btn-default" aria-label="Help">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -150,10 +157,8 @@
 
                     <div class="panel-footer">
                         <div class="row">
-                                <div class="col-xs-12 col-xs-7">
-                                    <button type="submit" class="btn btn-primary glyphicon glyphicon-question-sign"></button>
-                                </div>
                                 <div class=" col-xs-12 col-md-5">
+                                    <button type="submit" class="btn btn-primary glyphicon glyphicon-question-sign"></button>
                                     <button type="button" class="btn btn-default glyphicon glyphicon-remove-circle"></button>
                                     <button type="button" class="btn btn-default glyphicon glyphicon-search"></button>
                                     <button type="button" class="btn btn-default glyphicon glyphicon-arrow-left"></button>
@@ -167,9 +172,37 @@
                         </div>
                     </div>
 
+                <!-- table -->
+
+                <div class="table-responsive">
+                    <table class="table table-bordered"> 
+                        <thead>
+                             <tr>
+                                  <th>#</th>
+                                  <th>Table heading</th>
+                                  <th>Table heading</th> 
+                                  <th>Table heading</th> 
+                                  <th>Table heading</th> 
+                                  <th>Table heading</th> 
+                                  <th>Table heading</th> 
+                             </tr> 
+                        </thead> 
+                        <tbody> 
+                            <tr> 
+                                <th scope="row">1</th> 
+                                    <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> </tr> <tr> <th scope="row">2</th> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> </tr> <tr> <th scope="row">3</th> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> <td>Table cell</td> 
+                            </tr> 
+                        </tbody> 
+                    </table>
+                </div>
+
                 </div>
                 
+               
+
             </div>
+
+
 
         </div> <!-- /container -->
   </body>
